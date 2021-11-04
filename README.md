@@ -33,7 +33,7 @@ The header of the resultant table is shown below:
 - Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?  As eligibility is currently defined, no there are not enough people eligible for this program.  This being said, the eligibility criteria don't make sense.  Why have the managers picked an arbitrary birth year of 1965 as the criteria for people to be eligible for this program, especially when the retiring demographic is birth years 1951-1955?  Wouldn't you rather select people born in 1955 to play this role? Or if you want to stay out of the near retiring population all together, wouldn't you select people born between 1956-1960 as potentially eligible?
 
 ### Additional analyses:
-Getting just the absolute number of employees retiring from each department doesn't highlight the true impact on each area.  I believe showing it as a percentage of the current workforce in each department is more meaningful. The table for this is shown below.  As you can see, Senior Engineer is going to be hit the hardest with 97% of that department walking out the door in the next 5 years.  Next, the areas of Senior Staff, Staff, and Technique Leader are losing 30, 29, and 29 percent respectively.
+- Getting just the absolute number of employees retiring from each department doesn't highlight the true impact on each area.  I believe showing it as a percentage of the current workforce in each department is more meaningful. The table for this is shown below.  As you can see, Senior Engineer is going to be hit the hardest with 97% of that department walking out the door in the next 5 years.  Next, the areas of Senior Staff, Staff, and Technique Leader are losing 30, 29, and 29 percent respectively.
 
 ![image](https://user-images.githubusercontent.com/90977689/140366573-170286da-ceca-475c-a179-427346ae8b00.png)
 
@@ -45,4 +45,15 @@ This table was created using the following code:
 
 
 
-This can be done with a simple calculation query as shown below:  
+- Additionally, we could glean a little more information from the pool of employees eligible for the mentorship program.  Specifically, it would be nice to know how this list of people breaks down into the different departments.  The table is shown below.  As can be seen, only 397 of the eligible population currently hold the title of Senior Engineer.  
+
+
+![image](https://user-images.githubusercontent.com/90977689/140402128-46e54d67-0b95-45ac-97c3-f992c048a4af.png)
+
+The code for this is shown below:
+
+![image](https://user-images.githubusercontent.com/90977689/140402310-e4a14864-747c-415a-915b-d7af0db05c97.png)
+
+
+
+
