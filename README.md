@@ -33,4 +33,16 @@ The header of the resultant table is shown below:
 - Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?  As eligibility is currently defined, no there are not enough people eligible for this program.  This being said, the eligibility criteria don't make sense.  Why have the managers picked an arbitrary birth year of 1965 as the criteria for people to be eligible for this program, especially when the retiring demographic is birth years 1951-1955?  Wouldn't you rather select people born in 1955 to play this role? Or if you want to stay out of the near retiring population all together, wouldn't you select people born between 1956-1960 as potentially eligible?
 
 ### Additional analyses:
-Getting just the absolute number of employees retiring from each department doesn't highlight the true impact on each area.  I believe showing it as a percentage of the current workforce in each department is more meaningful.  This can be done with a simple calculation query as shown below:  
+Getting just the absolute number of employees retiring from each department doesn't highlight the true impact on each area.  I believe showing it as a percentage of the current workforce in each department is more meaningful. The table for this is shown below.  As you can see, Senior Engineer is going to be hit the hardest with 97% of that department walking out the door in the next 5 years.  Next, the areas of Senior Staff, Staff, and Technique Leader are losing 30, 29, and 29 percent respectively.
+
+![image](https://user-images.githubusercontent.com/90977689/140366573-170286da-ceca-475c-a179-427346ae8b00.png)
+
+This table was created using the following code:
+
+![image](https://user-images.githubusercontent.com/90977689/140368409-a06082af-2993-4477-b7ad-60845ffedef1.png)
+
+
+
+
+
+This can be done with a simple calculation query as shown below:  
