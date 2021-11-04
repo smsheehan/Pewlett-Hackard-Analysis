@@ -13,7 +13,14 @@ The header of the resultant table is shown below:
 
 ![image](https://user-images.githubusercontent.com/90977689/140316455-fe0a392b-495b-42f2-bf11-76ab7b542dcb.png)
 
-- Senior Engineer and Senior Staff are the two titles with the highest number of near-retiring people.  
+- Senior Engineer and Senior Staff are the two titles with the highest number of near-retiring people. This was determined by querying the unique_titles table and using the COUNT() function on employees and then grouping by titles and ordering by count in descending order.  This was put into a new table called retiring_titles.  The code and resultant table are shown below:
+   ![image](https://user-images.githubusercontent.com/90977689/140317703-f5567130-e8ef-4a6f-bc49-5eb1606c20fb.png)
+
+  ![image](https://user-images.githubusercontent.com/90977689/140317843-6aecd362-000c-4b54-abcd-bfef80bde5b0.png)
+
+- Based on the two tables created above, we can determine that many employees in this age group have not changed jobs over the course of their career.  Since the retirement_titles table captures all of the titles and the retiring_titles captures only the latest titles, simple division of the total counts reveals that in this age range employees have an average of 1.48 job titles.  Or in other words, more than half of this population has never had a promotion or job change.
+
+- Th 
 
 ## Summary: 
 Provide high-level responses to the following questions, then provide two additional queries or tables that may provide more insight into the upcoming "silver tsunami."
