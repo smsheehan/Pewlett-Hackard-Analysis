@@ -20,10 +20,12 @@ The header of the resultant table is shown below:
 
 - Based on the two tables created above, we can determine that many employees in this age group have not changed jobs over the course of their career.  Since the retirement_titles table captures all of the titles and the retiring_titles captures only the latest titles, simple division of the total counts reveals that in this age range employees have an average of 1.48 job titles.  Or in other words, more than half of this population has never had a promotion or job change.
 
-- Th 
+- There are 1,549 people eligible for the proposed mentoring program.  The requirement for eligibility for the program is that the individual was born in the year 1965.  To obtain this information, I joined information from the Employees, dept_emp, and titles tables using the DISTINCT ON() function on emp_no in the Employees table.  This was filtered by birth date and dept_emp.to_date (to capture only active employees).  This was then ordered by emp_no.  A new table called mentorship_eligibility was created.  The query used and header of the resultant table is shown below: 
+![image](https://user-images.githubusercontent.com/90977689/140320792-739d2ebc-c3ae-4d52-a750-f0d643b9038c.png)
 
-## Summary: 
-Provide high-level responses to the following questions, then provide two additional queries or tables that may provide more insight into the upcoming "silver tsunami."
+![image](https://user-images.githubusercontent.com/90977689/140320989-ff9a7c76-bb0f-4122-aa7f-a409edd66465.png)
+
+
 
 - How many roles will need to be filled as the "silver tsunami" begins to make an impact?
 - Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
